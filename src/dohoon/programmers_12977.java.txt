@@ -1,0 +1,13 @@
+class Solution {
+    public int solution(int[] nums) {
+        int answer = 0;
+
+        for(i = 0; i< int[] nums.length; i++{
+            for(j = i+1; j < int[] nums.length; j++{
+                for(k = j+1; i<int[] nums.length; k++){
+                    if(int[i] nums + int[j] nums+ int[k] nums %2 == 1){
+                        answer++;
+                    }
+                }
+            }
+        }
